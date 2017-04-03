@@ -1,0 +1,3935 @@
+{
+    "settings": {
+        "title": "Concentration Game Level 1",
+        "start": 0,
+        "end": 25359,
+        "level": 0,
+        "startOffset": 100,
+        "endOffset": 200
+    },
+    "data": {
+        "0": {},
+        "50": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "100": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "150": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "140": {},
+        "185": {},
+        "190": {
+            "mouse": {
+                "type": "move",
+                "x": "1.1404387",
+                "y": "46.98616",
+                "duration": 0
+            }
+        },
+        "240": {
+            "mouse": {
+                "type": "move",
+                "x": "4.124991",
+                "y": "169.94995",
+                "duration": 50
+            }
+        },
+        "285": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "206",
+                "duration": 45
+            }
+        },
+        "295": {},
+        "345": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "375": {},
+        "385": {},
+        "395": {},
+        "405": {},
+        "455": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "655": {},
+        "705": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "755": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-unattended-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "805": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "855": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "845": {},
+        "890": {},
+        "895": {
+            "mouse": {
+                "type": "move",
+                "x": "53.08326",
+                "y": "157.91675",
+                "duration": 610
+            }
+        },
+        "945": {
+            "mouse": {
+                "type": "move",
+                "x": "174.70563",
+                "y": "36.294373",
+                "duration": 50
+            }
+        },
+        "985": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "6",
+                "duration": 40
+            }
+        },
+        "995": {},
+        "1045": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "1075": {},
+        "1085": {},
+        "1095": {},
+        "1105": {},
+        "1155": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "1205": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "1255": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "1305": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "1355": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "1345": {},
+        "1390": {},
+        "1395": {
+            "mouse": {
+                "type": "move",
+                "x": "216.70042",
+                "y": "41.10128",
+                "duration": 410
+            }
+        },
+        "1405": {},
+        "1445": {
+            "mouse": {
+                "type": "move",
+                "x": "260.02362",
+                "y": "171.07089",
+                "duration": 50
+            }
+        },
+        "1495": {
+            "mouse": {
+                "type": "move",
+                "x": "298.91965",
+                "y": "287.75894",
+                "duration": 50
+            }
+        },
+        "1533": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "306",
+                "duration": 38
+            }
+        },
+        "1543": {},
+        "1593": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "1623": {},
+        "1633": {},
+        "1643": {},
+        "1653": {},
+        "1703": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "1903": {},
+        "1953": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "2003": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-unattended-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "2053": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "2103": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "2093": {},
+        "2138": {},
+        "2161": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "206",
+                "duration": 628
+            }
+        },
+        "2171": {},
+        "2221": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "2251": {},
+        "2261": {},
+        "2271": {},
+        "2281": {},
+        "2331": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "2381": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "2431": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "2481": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "2531": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "2521": {},
+        "2566": {},
+        "2571": {
+            "mouse": {
+                "type": "move",
+                "x": "269.22183",
+                "y": "182.14789",
+                "duration": 410
+            }
+        },
+        "2581": {},
+        "2621": {
+            "mouse": {
+                "type": "move",
+                "x": "139.42198",
+                "y": "95.61466",
+                "duration": 50
+            }
+        },
+        "2671": {
+            "mouse": {
+                "type": "move",
+                "x": "22.934937",
+                "y": "17.956635",
+                "duration": 50
+            }
+        },
+        "2708": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "6",
+                "duration": 37
+            }
+        },
+        "2718": {},
+        "2768": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "2798": {},
+        "2808": {},
+        "2818": {},
+        "2828": {},
+        "2878": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "3078": {},
+        "3128": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "3178": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "3228": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "3218": {},
+        "3263": {},
+        "3268": {
+            "mouse": {
+                "type": "move",
+                "x": "16.700428",
+                "y": "41.10128",
+                "duration": 560
+            }
+        },
+        "3318": {
+            "mouse": {
+                "type": "move",
+                "x": "60.023636",
+                "y": "171.07089",
+                "duration": 50
+            }
+        },
+        "3368": {
+            "mouse": {
+                "type": "move",
+                "x": "98.919655",
+                "y": "287.75894",
+                "duration": 50
+            }
+        },
+        "3406": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "306",
+                "duration": 38
+            }
+        },
+        "3416": {},
+        "3466": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "3496": {},
+        "3506": {},
+        "3516": {},
+        "3526": {},
+        "3576": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "3626": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "3676": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "3726": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "3776": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "3766": {},
+        "3811": {},
+        "3816": {
+            "mouse": {
+                "type": "move",
+                "x": "116.700424",
+                "y": "270.8987",
+                "duration": 410
+            }
+        },
+        "3826": {},
+        "3866": {
+            "mouse": {
+                "type": "move",
+                "x": "160.02364",
+                "y": "140.92911",
+                "duration": 50
+            }
+        },
+        "3916": {
+            "mouse": {
+                "type": "move",
+                "x": "198.91965",
+                "y": "24.241058",
+                "duration": 50
+            }
+        },
+        "3954": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "6",
+                "duration": 38
+            }
+        },
+        "3964": {},
+        "4014": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "4043": {},
+        "4054": {},
+        "4064": {},
+        "4074": {},
+        "4124": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "4324": {},
+        "4374": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "4424": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "4474": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "4464": {},
+        "4509": {},
+        "4514": {
+            "mouse": {
+                "type": "move",
+                "x": "181.29768",
+                "y": "53.404644",
+                "duration": 560
+            }
+        },
+        "4564": {
+            "mouse": {
+                "type": "move",
+                "x": "120.47665",
+                "y": "175.04675",
+                "duration": 50
+            }
+        },
+        "4605": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "206",
+                "duration": 41
+            }
+        },
+        "4615": {},
+        "4665": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "4695": {},
+        "4705": {},
+        "4715": {},
+        "4725": {},
+        "4775": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "4825": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "4875": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "4925": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "4975": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "4965": {},
+        "5010": {},
+        "5015": {
+            "mouse": {
+                "type": "move",
+                "x": "152.40463",
+                "y": "229.70232",
+                "duration": 410
+            }
+        },
+        "5025": {},
+        "5065": {
+            "mouse": {
+                "type": "move",
+                "x": "274.04675",
+                "y": "290.52338",
+                "duration": 50
+            }
+        },
+        "5106": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "5116": {},
+        "5166": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "5196": {},
+        "5206": {},
+        "5216": {},
+        "5226": {},
+        "5276": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "5476": {},
+        "5526": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "5576": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-unattended-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "5626": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "5676": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "5666": {},
+        "5711": {},
+        "5716": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "271",
+                "duration": 610
+            }
+        },
+        "5766": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "141",
+                "duration": 50
+            }
+        },
+        "5816": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "25",
+                "duration": 50
+            }
+        },
+        "5854": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "6",
+                "duration": 38
+            }
+        },
+        "5864": {},
+        "5914": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "5944": {},
+        "5954": {},
+        "5964": {},
+        "5974": {},
+        "6024": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "6049": {},
+        "6074": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "6124": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "6174": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "6224": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "6214": {},
+        "6259": {},
+        "6264": {
+            "mouse": {
+                "type": "move",
+                "x": "269.8987",
+                "y": "17.700428",
+                "duration": 410
+            }
+        },
+        "6314": {
+            "mouse": {
+                "type": "move",
+                "x": "139.92911",
+                "y": "61.023632",
+                "duration": 50
+            }
+        },
+        "6364": {
+            "mouse": {
+                "type": "move",
+                "x": "23.241058",
+                "y": "99.91965",
+                "duration": 50
+            }
+        },
+        "6402": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "106",
+                "duration": 38
+            }
+        },
+        "6412": {},
+        "6462": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "6492": {},
+        "6502": {},
+        "6512": {},
+        "6522": {},
+        "6572": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "6772": {},
+        "6822": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "6872": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-unattended-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "6922": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "6972": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "6962": {},
+        "7007": {},
+        "7030": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "206",
+                "duration": 628
+            }
+        },
+        "7040": {},
+        "7090": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "7120": {},
+        "7130": {},
+        "7140": {},
+        "7150": {},
+        "7200": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "7250": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "7300": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "7350": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "7400": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "7390": {},
+        "7435": {},
+        "7440": {
+            "mouse": {
+                "type": "move",
+                "x": "53.08326",
+                "y": "157.91675",
+                "duration": 410
+            }
+        },
+        "7450": {},
+        "7490": {
+            "mouse": {
+                "type": "move",
+                "x": "174.70563",
+                "y": "36.294373",
+                "duration": 50
+            }
+        },
+        "7530": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "6",
+                "duration": 40
+            }
+        },
+        "7540": {},
+        "7590": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "7620": {},
+        "7630": {},
+        "7640": {},
+        "7650": {},
+        "7700": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "7900": {},
+        "7950": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "8000": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "find-matching-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "8050": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "8039": {},
+        "8085": {},
+        "8090": {
+            "mouse": {
+                "type": "move",
+                "x": "157",
+                "y": "6",
+                "duration": 560
+            }
+        },
+        "8140": {
+            "mouse": {
+                "type": "move",
+                "x": "36",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "8180": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "6",
+                "duration": 40
+            }
+        },
+        "8191": {},
+        "8241": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "8271": {},
+        "8281": {},
+        "8291": {},
+        "8301": {},
+        "8351": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "8376": {},
+        "8401": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "8451": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "8501": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "8551": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "8541": {},
+        "8586": {},
+        "8591": {
+            "mouse": {
+                "type": "move",
+                "x": "28.852108",
+                "y": "41.77816",
+                "duration": 411
+            }
+        },
+        "8641": {
+            "mouse": {
+                "type": "move",
+                "x": "115.38534",
+                "y": "171.578",
+                "duration": 50
+            }
+        },
+        "8691": {
+            "mouse": {
+                "type": "move",
+                "x": "193.04337",
+                "y": "288.06503",
+                "duration": 50
+            }
+        },
+        "8728": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "306",
+                "duration": 37
+            }
+        },
+        "8738": {},
+        "8788": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "8818": {},
+        "8828": {},
+        "8838": {},
+        "8848": {},
+        "8898": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "9098": {},
+        "9148": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "9198": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-unattended-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "9248": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "9298": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "9288": {},
+        "9333": {},
+        "9338": {
+            "mouse": {
+                "type": "move",
+                "x": "193.29958",
+                "y": "270.8987",
+                "duration": 610
+            }
+        },
+        "9388": {
+            "mouse": {
+                "type": "move",
+                "x": "149.97636",
+                "y": "140.92911",
+                "duration": 50
+            }
+        },
+        "9438": {
+            "mouse": {
+                "type": "move",
+                "x": "111.08035",
+                "y": "24.241058",
+                "duration": 50
+            }
+        },
+        "9476": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "6",
+                "duration": 38
+            }
+        },
+        "9486": {},
+        "9536": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "9566": {},
+        "9576": {},
+        "9586": {},
+        "9596": {},
+        "9646": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "9696": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "9746": {
+            "cognitive": {
+                "type": "start-with-seed",
+                "action": "start-with-seed",
+                "request": "",
+                "summary": "",
+                "duration": 50
+            }
+        },
+        "9786": {},
+        "9796": {},
+        "9831": {},
+        "9836": {
+            "mouse": {
+                "type": "move",
+                "x": "81.29768",
+                "y": "53.404644",
+                "duration": 360
+            }
+        },
+        "9886": {
+            "mouse": {
+                "type": "move",
+                "x": "20.476646",
+                "y": "175.04675",
+                "duration": 50
+            }
+        },
+        "9896": {},
+        "9927": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "206",
+                "duration": 41
+            }
+        },
+        "9937": {},
+        "9987": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "10017": {},
+        "10027": {},
+        "10037": {},
+        "10047": {},
+        "10097": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "10297": {},
+        "10347": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "10397": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "find-matching-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "10447": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "10437": {},
+        "10482": {},
+        "10487": {
+            "mouse": {
+                "type": "move",
+                "x": "28.702318",
+                "y": "158.59535",
+                "duration": 560
+            }
+        },
+        "10537": {
+            "mouse": {
+                "type": "move",
+                "x": "89.52336",
+                "y": "36.953247",
+                "duration": 50
+            }
+        },
+        "10578": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "6",
+                "duration": 41
+            }
+        },
+        "10588": {},
+        "10638": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "6",
+                "duration": 50
+            }
+        },
+        "10668": {},
+        "10678": {},
+        "10688": {},
+        "10698": {},
+        "10748": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "10773": {},
+        "10798": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "10848": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "10898": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "10948": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "10938": {},
+        "10983": {},
+        "11006": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "106",
+                "duration": 428
+            }
+        },
+        "11016": {},
+        "11066": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "11096": {},
+        "11106": {},
+        "11116": {},
+        "11126": {},
+        "11176": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "11376": {},
+        "11426": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "11476": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-unattended-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "11526": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "11576": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "11566": {},
+        "11611": {},
+        "11616": {
+            "mouse": {
+                "type": "move",
+                "x": "28.702318",
+                "y": "153.40465",
+                "duration": 610
+            }
+        },
+        "11666": {
+            "mouse": {
+                "type": "move",
+                "x": "89.52336",
+                "y": "275.04675",
+                "duration": 50
+            }
+        },
+        "11707": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "11717": {},
+        "11767": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "11797": {},
+        "11807": {},
+        "11817": {},
+        "11827": {},
+        "11877": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "11927": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "11977": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "12027": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "12077": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "12067": {},
+        "12112": {},
+        "12117": {
+            "mouse": {
+                "type": "move",
+                "x": "128.70232",
+                "y": "258.59537",
+                "duration": 410
+            }
+        },
+        "12127": {},
+        "12167": {
+            "mouse": {
+                "type": "move",
+                "x": "189.52336",
+                "y": "136.95325",
+                "duration": 50
+            }
+        },
+        "12208": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "12218": {},
+        "12268": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "12298": {},
+        "12308": {},
+        "12318": {},
+        "12328": {},
+        "12378": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "12578": {},
+        "12628": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "12678": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-unattended-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "12728": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "12778": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "12768": {},
+        "12813": {},
+        "12836": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "206",
+                "duration": 628
+            }
+        },
+        "12846": {},
+        "12896": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "12926": {},
+        "12936": {},
+        "12946": {},
+        "12956": {},
+        "13006": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "13056": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "13106": {
+            "cognitive": {
+                "type": "start-with-seed",
+                "action": "start-with-seed",
+                "request": "",
+                "summary": "",
+                "duration": 50
+            }
+        },
+        "13146": {},
+        "13156": {},
+        "13191": {},
+        "13196": {
+            "mouse": {
+                "type": "move",
+                "x": "257",
+                "y": "206",
+                "duration": 360
+            }
+        },
+        "13246": {
+            "mouse": {
+                "type": "move",
+                "x": "136",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "13256": {},
+        "13287": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "206",
+                "duration": 41
+            }
+        },
+        "13297": {},
+        "13347": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "13377": {},
+        "13387": {},
+        "13397": {},
+        "13407": {},
+        "13457": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "13657": {},
+        "13707": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "13757": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "find-matching-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "13807": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "13797": {},
+        "13842": {},
+        "13847": {
+            "mouse": {
+                "type": "move",
+                "x": "153",
+                "y": "206",
+                "duration": 560
+            }
+        },
+        "13897": {
+            "mouse": {
+                "type": "move",
+                "x": "274",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "13938": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "206",
+                "duration": 41
+            }
+        },
+        "13948": {},
+        "13998": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "14028": {},
+        "14038": {},
+        "14048": {},
+        "14058": {},
+        "14108": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "14133": {},
+        "14158": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "14208": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "14258": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "14308": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "14298": {},
+        "14343": {},
+        "14348": {
+            "mouse": {
+                "type": "move",
+                "x": "257.59537",
+                "y": "182.29768",
+                "duration": 410
+            }
+        },
+        "14398": {
+            "mouse": {
+                "type": "move",
+                "x": "135.95325",
+                "y": "121.47665",
+                "duration": 50
+            }
+        },
+        "14439": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "14449": {},
+        "14499": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "14529": {},
+        "14539": {},
+        "14549": {},
+        "14559": {},
+        "14609": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "14809": {},
+        "14859": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "14909": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "14959": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "14949": {},
+        "14994": {},
+        "14999": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "154",
+                "duration": 560
+            }
+        },
+        "15049": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "275",
+                "duration": 50
+            }
+        },
+        "15090": {
+            "mouse": {
+                "type": "move",
+                "x": "105",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "15100": {},
+        "15150": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "105",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "15180": {},
+        "15190": {},
+        "15200": {},
+        "15210": {},
+        "15260": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "15285": {},
+        "15310": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "15360": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "15410": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "15460": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "15450": {},
+        "15495": {},
+        "15518": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "206",
+                "duration": 428
+            }
+        },
+        "15528": {},
+        "15578": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "15608": {},
+        "15618": {},
+        "15628": {},
+        "15638": {},
+        "15688": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "15888": {},
+        "15938": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "15988": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "16038": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "16027": {},
+        "16073": {},
+        "16096": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "106",
+                "duration": 578
+            }
+        },
+        "16106": {},
+        "16155": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "106",
+                "duration": 51
+            }
+        },
+        "16186": {},
+        "16196": {},
+        "16206": {},
+        "16216": {},
+        "16265": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "16315": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "16366": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "16416": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "16466": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "16456": {},
+        "16501": {},
+        "16506": {
+            "mouse": {
+                "type": "move",
+                "x": "281.29767",
+                "y": "153.40465",
+                "duration": 410
+            }
+        },
+        "16516": {},
+        "16556": {
+            "mouse": {
+                "type": "move",
+                "x": "220.47665",
+                "y": "275.04675",
+                "duration": 50
+            }
+        },
+        "16597": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "16607": {},
+        "16657": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "16687": {},
+        "16697": {},
+        "16707": {},
+        "16717": {},
+        "16767": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "16967": {},
+        "17017": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "17067": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "17117": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "17107": {},
+        "17152": {},
+        "17157": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "258",
+                "duration": 560
+            }
+        },
+        "17207": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "137",
+                "duration": 50
+            }
+        },
+        "17248": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "17258": {},
+        "17308": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "17338": {},
+        "17348": {},
+        "17358": {},
+        "17368": {},
+        "17418": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "17468": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "17518": {
+            "cognitive": {
+                "type": "start-with-seed",
+                "action": "start-with-seed",
+                "request": "",
+                "summary": "",
+                "duration": 50
+            }
+        },
+        "17558": {},
+        "17568": {},
+        "17603": {},
+        "17626": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "206",
+                "duration": 378
+            }
+        },
+        "17636": {},
+        "17668": {},
+        "17686": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "17716": {},
+        "17726": {},
+        "17736": {},
+        "17746": {},
+        "17796": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "17996": {},
+        "18046": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "18096": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "18146": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "18136": {},
+        "18181": {},
+        "18186": {
+            "mouse": {
+                "type": "move",
+                "x": "157.59535",
+                "y": "182.29768",
+                "duration": 560
+            }
+        },
+        "18236": {
+            "mouse": {
+                "type": "move",
+                "x": "35.953247",
+                "y": "121.47665",
+                "duration": 50
+            }
+        },
+        "18277": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "18287": {},
+        "18337": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "18367": {},
+        "18377": {},
+        "18387": {},
+        "18397": {},
+        "18447": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "18497": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "18547": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "18597": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "18647": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "18637": {},
+        "18682": {},
+        "18687": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "154",
+                "duration": 410
+            }
+        },
+        "18697": {},
+        "18737": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "275",
+                "duration": 50
+            }
+        },
+        "18778": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "18788": {},
+        "18838": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "18868": {},
+        "18878": {},
+        "18888": {},
+        "18898": {},
+        "18948": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "19148": {},
+        "19198": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "19248": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "19298": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "19288": {},
+        "19333": {},
+        "19338": {
+            "mouse": {
+                "type": "move",
+                "x": "40.77816",
+                "y": "282.1479",
+                "duration": 560
+            }
+        },
+        "19388": {
+            "mouse": {
+                "type": "move",
+                "x": "170.578",
+                "y": "195.61465",
+                "duration": 50
+            }
+        },
+        "19438": {
+            "mouse": {
+                "type": "move",
+                "x": "287.06503",
+                "y": "117.956635",
+                "duration": 50
+            }
+        },
+        "19475": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "106",
+                "duration": 37
+            }
+        },
+        "19485": {},
+        "19535": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "19565": {},
+        "19575": {},
+        "19585": {},
+        "19595": {},
+        "19645": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "19695": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "19745": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "19795": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "19845": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "19835": {},
+        "19880": {},
+        "19885": {
+            "mouse": {
+                "type": "move",
+                "x": "281.29767",
+                "y": "153.40465",
+                "duration": 410
+            }
+        },
+        "19895": {},
+        "19935": {
+            "mouse": {
+                "type": "move",
+                "x": "220.47665",
+                "y": "275.04675",
+                "duration": 50
+            }
+        },
+        "19976": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "19986": {},
+        "20036": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "20066": {},
+        "20076": {},
+        "20086": {},
+        "20096": {},
+        "20146": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "20346": {},
+        "20396": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "20446": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "20496": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "20486": {},
+        "20531": {},
+        "20536": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "258",
+                "duration": 560
+            }
+        },
+        "20586": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "137",
+                "duration": 50
+            }
+        },
+        "20627": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "20637": {},
+        "20687": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "20717": {},
+        "20727": {},
+        "20737": {},
+        "20747": {},
+        "20797": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "20847": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "20897": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "20947": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "20997": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "20987": {},
+        "21032": {},
+        "21037": {
+            "mouse": {
+                "type": "move",
+                "x": "157",
+                "y": "106",
+                "duration": 410
+            }
+        },
+        "21047": {},
+        "21087": {
+            "mouse": {
+                "type": "move",
+                "x": "36",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "21128": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "21138": {},
+        "21188": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "21218": {},
+        "21228": {},
+        "21238": {},
+        "21248": {},
+        "21298": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "21498": {},
+        "21548": {
+            "cognitive": {
+                "type": "P",
+                "action": "find-random-second-tile",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "21598": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "21648": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "21638": {},
+        "21683": {},
+        "21688": {
+            "mouse": {
+                "type": "move",
+                "x": "52.40464",
+                "y": "129.70232",
+                "duration": 560
+            }
+        },
+        "21738": {
+            "mouse": {
+                "type": "move",
+                "x": "174.04674",
+                "y": "190.52338",
+                "duration": 50
+            }
+        },
+        "21779": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "206",
+                "duration": 41
+            }
+        },
+        "21789": {},
+        "21839": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "21869": {},
+        "21879": {},
+        "21889": {},
+        "21899": {},
+        "21949": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "21999": {
+            "cognitive": {
+                "type": "WM",
+                "action": "no-match-found-check-earlier",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "22049": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "22099": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "22149": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "22139": {},
+        "22184": {},
+        "22199": {},
+        "22207": {
+            "mouse": {
+                "type": "move",
+                "x": "305",
+                "y": "106",
+                "duration": 428
+            }
+        },
+        "22217": {},
+        "22267": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "305",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "22297": {},
+        "22307": {},
+        "22317": {},
+        "22327": {},
+        "22377": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "22577": {},
+        "22627": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "22677": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "find-matching-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "22727": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "22717": {},
+        "22762": {},
+        "22767": {
+            "mouse": {
+                "type": "move",
+                "x": "281.29767",
+                "y": "153.40465",
+                "duration": 560
+            }
+        },
+        "22817": {
+            "mouse": {
+                "type": "move",
+                "x": "220.47665",
+                "y": "275.04675",
+                "duration": 50
+            }
+        },
+        "22858": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "22868": {},
+        "22918": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "22948": {},
+        "22958": {},
+        "22968": {},
+        "22978": {},
+        "23028": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "23053": {},
+        "23078": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "23128": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "23178": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "23228": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "23218": {},
+        "23263": {},
+        "23268": {
+            "mouse": {
+                "type": "move",
+                "x": "157",
+                "y": "306",
+                "duration": 410
+            }
+        },
+        "23318": {
+            "mouse": {
+                "type": "move",
+                "x": "36",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "23359": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "306",
+                "duration": 41
+            }
+        },
+        "23369": {},
+        "23419": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "306",
+                "duration": 50
+            }
+        },
+        "23449": {},
+        "23459": {},
+        "23469": {},
+        "23479": {},
+        "23529": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "23729": {},
+        "23779": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "23829": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "find-matching-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "23879": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "23869": {},
+        "23914": {},
+        "23919": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "258",
+                "duration": 560
+            }
+        },
+        "23969": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "137",
+                "duration": 50
+            }
+        },
+        "24010": {
+            "mouse": {
+                "type": "move",
+                "x": "5",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "24020": {},
+        "24070": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "5",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "24100": {},
+        "24110": {},
+        "24120": {},
+        "24130": {},
+        "24180": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "24205": {},
+        "24230": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "24280": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        },
+        "24330": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "attend-first-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "24380": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "24370": {},
+        "24415": {},
+        "24420": {
+            "mouse": {
+                "type": "move",
+                "x": "53",
+                "y": "106",
+                "duration": 410
+            }
+        },
+        "24470": {
+            "mouse": {
+                "type": "move",
+                "x": "174",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "24511": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "106",
+                "duration": 41
+            }
+        },
+        "24521": {},
+        "24571": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-first-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "106",
+                "duration": 50
+            }
+        },
+        "24601": {},
+        "24611": {},
+        "24621": {},
+        "24631": {},
+        "24681": {
+            "cognitive": {
+                "type": "WM",
+                "action": "read-first-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "24881": {},
+        "24931": {
+            "cognitive": {
+                "type": "WM",
+                "action": "check-for-matching-second-tile",
+                "request": "Working Memory",
+                "summary": "Store or retrieve chunk from memory",
+                "duration": 50
+            }
+        },
+        "24981": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Find location",
+                "duration": 50
+            },
+            "cognitive": {
+                "type": "P, M",
+                "action": "find-matching-second-tile",
+                "request": "Perceptual and Motor",
+                "summary": "Attend to or find the matching tile",
+                "duration": 50
+            }
+        },
+        "25031": {
+            "perceptual": {
+                "type": "visual",
+                "action": "Move attention",
+                "duration": 85
+            }
+        },
+        "25021": {},
+        "25066": {},
+        "25089": {
+            "mouse": {
+                "type": "move",
+                "x": "205",
+                "y": "206",
+                "duration": 578
+            }
+        },
+        "25099": {},
+        "25149": {
+            "cognitive": {
+                "type": "M",
+                "action": "click-second-tile",
+                "request": "Motor",
+                "summary": "Click on a tile",
+                "duration": 50
+            },
+            "click": {
+                "type": "click",
+                "x": "205",
+                "y": "206",
+                "duration": 50
+            }
+        },
+        "25179": {},
+        "25189": {},
+        "25199": {},
+        "25209": {},
+        "25259": {
+            "cognitive": {
+                "type": "C",
+                "action": "read-second-tile",
+                "request": "None",
+                "summary": "Read a matching second tile",
+                "duration": 50
+            }
+        },
+        "25284": {},
+        "25309": {
+            "cognitive": {
+                "type": "C",
+                "action": "match-found-restart",
+                "request": "None",
+                "summary": "Tiles were a match, start over",
+                "duration": 50
+            }
+        },
+        "25359": {
+            "cognitive": {
+                "type": "P",
+                "action": "start-find-unattended",
+                "request": "Perceptual",
+                "summary": "Look for a tile to click",
+                "duration": 50
+            }
+        }
+    }
+}
