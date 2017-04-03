@@ -190,23 +190,23 @@ for t in range(0, prod_times[len(prod_times)-1]+1):
 cursor_data = open('data/mouse-positions-and-times.csv', 'r')
 cursor_data.readline()
 movement = cursor_data.read().split()
-init_x = 0
-init_y = 0
+init_x = 45
+init_y = 44
 last_time = 0
 for line in movement:
     point =  line.split(",")
     if(init_x == 0 and point[1] != 0):
-        init_x = point[1]
+        init_x = init_x + float(point[1])
         # print init_x
     if(init_y == 0 and point[2] != 0):
-        init_y = point[2]
+        init_y = init_y + float(point[2])
         # print init_y
     # print str(point[0])
     data['data'][point[0]]["gaze"] = OrderedDict([
         # ("type", "move"),
         ("start", point[0]),
-        ("x", point[1]),
-        ("y", point[2]),
+        ("x", str(float(point[1])+45)),
+        ("y", str(float(point[2])+44)),
         ("duration", int(point[0]) - last_time),
         ("fixated", "false")
     ])

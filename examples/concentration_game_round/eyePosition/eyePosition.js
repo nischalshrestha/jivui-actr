@@ -7,7 +7,7 @@
         // data[ms]['gaze'].x = data[ms]['gaze'].x + 2*273;
         // data[ms]['gaze'].y = data[ms]['gaze'].y + 2*341;
         data[ms]['gaze'].x = data[ms]['gaze'].x;
-        data[ms]['gaze'].y = data[ms]['gaze'].y ;
+        data[ms]['gaze'].y = data[ms]['gaze'].y;
 
         if(data[ms]['gaze']['filteredX']) {
           data[ms]['gaze'].filteredX = data[ms]['gaze'].filteredX - 240;
