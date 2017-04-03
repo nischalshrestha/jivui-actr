@@ -4,8 +4,6 @@
   EyePosition.onDataLoaded = function(settings, data) {
     for(var ms in data) {
       if(data[ms]['gaze']) {
-        // data[ms]['gaze'].x = data[ms]['gaze'].x + 2*273;
-        // data[ms]['gaze'].y = data[ms]['gaze'].y + 2*341;
         data[ms]['gaze'].x = data[ms]['gaze'].x;
         data[ms]['gaze'].y = data[ms]['gaze'].y;
 
