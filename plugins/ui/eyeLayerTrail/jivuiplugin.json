@@ -1,8 +1,0 @@
-{
-  "apiversion": "1",
-  "type": "ui",
-  "src": "eyeLayerTrail.js",
-  "notifyOnPlay": true,
-  "template": "eyeLayerTrail.htm",
-  "style": "eyeLayerTrail.css"
-}

@@ -1,8 +1,0 @@
-{
-  "apiversion": "1",
-  "type": "ui",
-  "src": "gamereplay.js",
-  "notifyOnPlay": true,
-  "template": "gamereplay.htm",
-  "style": "stylesTypingGame.css"
-}
