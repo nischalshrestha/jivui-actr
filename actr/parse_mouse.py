@@ -11,11 +11,10 @@ Parses list of mouse positions from two files:
 import re
 
 # Get mouse times file
-mousetimes = open('data/mouse-times-huge.txt', 'r')
+mousetimes = open('data/mouse-times.txt', 'r')
 in_mousetimes = re.findall("\d*\.\d+|\d+", mousetimes.read())
 # Get mouse positions file
-# pos = open('positions.txt', 'r')
-pos = open('data/mouse-positions-huge.txt', 'r')
+pos = open('data/mouse-positions.txt', 'r')
 output = open('data/mouse-positions-and-times.csv', 'w')
 output.write('time, x, y\n')
 split = pos.read().split("#(")
