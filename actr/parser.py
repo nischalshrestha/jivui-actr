@@ -16,7 +16,8 @@ QUESTIONS:
 How should we classify cognitive operators?
 
 - General method to parse the productions might not be possible since it depends on the 
-production rules of the model; however, you can copy the general structure of the 
+production rules of the model; however, you can copy the general structure of parsing the
+production output and filter relevant events for your model. 
 - The operators gathered for the Concentration model here is specific to the rules in the model
 
 ** MOUSE **
@@ -99,9 +100,6 @@ exact positions for visualization
     "summary": "Look for a tile to click" // short description of event/action
     "duration": 50 // duration is usually 50ms
 }
-
-- (For now sticking with only counting production fire events, i.e the procedure
-the model executes to play concentration)
 
 - Vision format:
 
