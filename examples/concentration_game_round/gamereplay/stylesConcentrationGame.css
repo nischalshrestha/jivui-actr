@@ -1,0 +1,54 @@
+table, tbody, thead, tr, td {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+
+.game div, .game table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.board {
+  background-size: 399px 499px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 49px;
+  height: 500px;
+  width: 400px;
+  position: relative;
+  border-collapse: collapse;
+}
+
+.cell {
+  border: 1px solid #666;
+  width: 100px;
+  height: 100px;
+  border-collapse: collapse;
+  background-color: #000;
+  box-sizing:border-box;
+  padding-left: 2px;
+  color: #000;
+}
+
+.revealed {
+  background-color: #FFF;
+  color: #000;
+}
+
+.score td {
+  height: 100px;
+  background-color: #333;
+  border: 1px solid #333;
+  color: #000;
+}
+
+.matched {
+  background-color: #2cb93e;
+}
+
+.game {
+  min-width: 850px;
+}
