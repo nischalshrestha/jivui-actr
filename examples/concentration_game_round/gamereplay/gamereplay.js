@@ -17,6 +17,7 @@
       this.previousRow = 0;
       this.previousCol = 0;
       $(".cell").removeClass("revealed");
+      $(".cell").removeClass("matched");
       $(".cell").html("");
       for(var i = 0; i < 4; i++) {
         for(var j = 0; j < 4; j++){
@@ -32,16 +33,16 @@
     },
     setPreviousTile: function(tile){
       this.previous = tile;
-      
+
     },
     removeTile: function(row, col){
       prevRow = this.previousRow;
       prevCol = this.previousCol;
       setTimeout(function(){
-        $(".row" + row).find(".col" + col).html("");
-        $(".row" + prevRow).find(".col" + prevCol).html("");
         $(".row" + row).find(".col" + col).removeClass("matched");
         $(".row" + prevRow).find(".col" + prevCol).removeClass("matched");
+        $(".row" + row).find(".col" + col).html("");
+        $(".row" + prevRow).find(".col" + prevCol).html("");
       }, 250);
     },
     revealTile: function(row, col){
@@ -71,13 +72,13 @@
         // console.log("Clicked: "+" Row: "+row+" Col: "+col+" move: "+this.move);
         this.revealTile(row, col);
         if(this.move % 2 == 0){
+          this.move = 0;
           if(this.isMatch(target, row, col)){
             // console.log(target + " matches " + this.previous);
             this.removeTile(row, col);
           } else {
             this.hideTile(row, col);
           }
-          this.move = 0;
         } else {
           this.setPreviousTile(target);
           this.setRow(row);
@@ -85,11 +86,6 @@
         }
     }
   };
-
-  // C   A   C   P
-  // H   Q   I   E
-  // A   B   I   B
-  // H   Q   E   P
 
   var tiles = [
     ['C', 'A', 'C', 'P'],
