@@ -127,25 +127,25 @@ board = {"2":"A", "3":"B", "4":"C", "5":"E", "6":"H", "7":"I", "8":"P", "9":"Q",
 def determine_target(x, y):
     x = int(x)
     y = int(y)
-    row = ""
-    col = ""
+    row = None
+    col = None
     if(x < 100):
-        col =  "1"
+        col =  1
     if(x > 100 and x < 200):
-        col = "2"
+        col = 2
     if(x > 200 and x < 300):
-        col = "3"
+        col = 3
     elif(x > 300):
-        col = "4"
+        col = 4
     if(y < 100):
-        row =  "1"
+        row =  1
     if(y > 100 and y < 200):
-        row = "2"
+        row = 2
     if(y > 200 and y < 300):
-        row = "3"
+        row = 3
     elif(y > 300):
-        row = "4"
-    return "("+row+", "+col+")"
+        row = 4
+    return row, col
 
 # Creates a conflict resolution event
 def end_conflict_resolution(start, end):
@@ -340,12 +340,14 @@ for line in f:
         # print duration
         x = relevant[4].split("#(")[1] 
         y = relevant[5].split(").")[0]
+        location = determine_target(x, y)
         data['data'][str(down_click)]['click'] = OrderedDict([
             ('type', 'click'),
             ('x', x),
             ('y', y),
             ('target', board[relevant[3]]),
-            ('location', determine_target(x, y)),
+            ('row', location[0]),
+            ('col', location[1]),
             ('duration', duration)
         ])
 
