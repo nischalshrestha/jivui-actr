@@ -1,23 +1,29 @@
 (function() {
   var ReplayConcentrationGame = new JIVUI.UIModule();
 
+  function Tile(letter, row, col){
+    this.letter = letter;
+    this.row = row;
+    this.col = col;
+  };
+
   var Board = { 
     level: 0,
     move: 0,
-    previous: "",
-    previousRow: 0,
-    previousCol: 0,
+    firstTile: null,
+    secondTile: null,
+    click: 0,
     init: function(level) {
       this.level = level;
       this.reset();
     },
     reset: function() {
       this.move =  0;
-      this.previous = "";
-      this.previousRow = 0;
-      this.previousCol = 0;
+      this.firstTile = null;
+      this.secondTile = null;
       $(".cell").removeClass("revealed");
       $(".cell").removeClass("matched");
+      $(".cell").removeClass("removed");
       $(".cell").html("");
       for(var i = 0; i < 4; i++) {
         for(var j = 0; j < 4; j++){
@@ -25,64 +31,61 @@
         }
       }
     },
-    setRow: function(row) {
-      this.previousRow = row;
+    setFirstTile: function(tile){
+      this.firstTile = tile;
     },
-    setCol: function(col) {
-      this.previousCol = col;
+    setSecondTile: function(tile){
+      this.secondTile = tile;
     },
-    setPreviousTile: function(tile){
-      this.previous = tile;
-
+    removeTiles: function(tile){
+      // setTimeout(function(){
+        $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).removeClass("matched");
+        $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).removeClass("matched");
+        // $(".row" + row).find(".col" + col).html("");
+        // $(".row" + prevRow).find(".col" + prevCol).html("");
+        // Make letters grey
+        $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).addClass("removed");
+        $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).addClass("removed");
+      // }, 250);
     },
-    removeTile: function(row, col){
-      prevRow = this.previousRow;
-      prevCol = this.previousCol;
-      setTimeout(function(){
-        $(".row" + row).find(".col" + col).removeClass("matched");
-        $(".row" + prevRow).find(".col" + prevCol).removeClass("matched");
-        $(".row" + row).find(".col" + col).html("");
-        $(".row" + prevRow).find(".col" + prevCol).html("");
-      }, 250);
+    revealTile: function(tile){
+      $(".row" + tile.row).find(".col" + tile.col).addClass("revealed");
     },
-    revealTile: function(row, col){
-      $(".row" + row).find(".col" + col).addClass("revealed");
+    hideTiles: function(tile){
+      // console.log("hiding tiles "+counter );
+       // setTimeout(function(){
+        $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).removeClass("revealed");
+        $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).removeClass("revealed");
+      // }, 1000);
     },
-    hideTile: function(row, col){
-      prevRow = this.previousRow;
-      prevCol = this.previousCol;
-       setTimeout(function(){
-        $(".row" + row).find(".col" + col).removeClass("revealed");
-        $(".row" + prevRow).find(".col" + prevCol).removeClass("revealed");
-      }, 1000);
-    },
-    isMatch: function(tile, row, col){
-      if(tile == this.previous && (row != this.previousRow || col != this.previousCol)){
-        $(".row" + row).find(".col" + col).addClass("matched");
-        $(".row" + this.previousRow).find(".col" + this.previousCol).addClass("matched");
+    isMatch: function(){
+      if(this.firstTile.letter == this.secondTile.letter && (this.firstTile.row != this.secondTile.row || this.firstTile.col != this.secondTile.col)){
+        $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).addClass("matched");
+        $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).addClass("matched");
         return true;
       }
       return false;
+    },
+    setClick: function(time){
+      this.click = time;
     },
     processClick: function(click) {
         this.move++;
         var target = click['target'];
         var row = click['row']-1;
         var col = click['col']-1;
+        var tile = new Tile(target, row, col);
         // console.log("Clicked: "+" Row: "+row+" Col: "+col+" move: "+this.move);
-        this.revealTile(row, col);
+        this.revealTile(tile);
         if(this.move % 2 == 0){
           this.move = 0;
-          if(this.isMatch(target, row, col)){
+          this.setSecondTile(tile);
+          if(this.isMatch()){
             // console.log(target + " matches " + this.previous);
-            this.removeTile(row, col);
-          } else {
-            this.hideTile(row, col);
-          }
+            this.removeTiles();
+          } 
         } else {
-          this.setPreviousTile(target);
-          this.setRow(row);
-          this.setCol(col);
+          this.setFirstTile(tile);
         }
     }
   };
@@ -93,6 +96,8 @@
     ['A', 'B', 'I', 'B'],
     ['H', 'Q', 'E', 'P']
   ];
+
+  var counter = 0;
 
   ReplayConcentrationGame.init = function(state) {
       $('#dataTitle').html("Concentration");
@@ -106,15 +111,39 @@
 
   ReplayConcentrationGame.reset = function() {
     Board.reset();
+    counter = 0;
+    clickBegin = 0;
   };
 
   ReplayConcentrationGame.onStop = function() {
+    // console.log("pauses: "+pauses+" end: "+clickEnd);
     ReplayConcentrationGame.reset();
   };
 
+  var clickBegin = 0;
+  var pauses = 0;
+
   ReplayConcentrationGame.onFrame = function(frame, entry) {
-    if(entry && entry['click']) {
-      Board.processClick(entry['click'])
+    if(entry) {
+      clickEnd = frame;
+      if(clickBegin != 0){
+        var difference = frame - clickBegin;
+        if(difference >= 1000){
+          pauses++;
+          Board.hideTiles();
+          // console.log("difference: "+difference);
+        }
+      }
+      if(entry['click']){
+        Board.processClick(entry['click']);
+        if(counter++ == 0){
+          clickBegin = frame;
+          console.log("clickBegin: "+frame);
+        } else {
+          console.log("clickEnd: "+frame);
+          counter = 0;
+        }
+      }
     }
   };
 
