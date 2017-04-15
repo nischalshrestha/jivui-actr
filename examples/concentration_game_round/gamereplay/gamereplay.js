@@ -38,30 +38,30 @@
       this.secondTile = tile;
     },
     removeTiles: function(tile){
-      // setTimeout(function(){
+      // Remove the match style
+      if(feedback){
         $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).removeClass("matched");
         $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).removeClass("matched");
-        // $(".row" + row).find(".col" + col).html("");
-        // $(".row" + prevRow).find(".col" + prevCol).html("");
-        // Make letters grey
-        $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).addClass("removed");
-        $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).addClass("removed");
-      // }, 250);
+      }
+      // Make letters grey
+      $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).addClass("removed");
+      $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).addClass("removed");
     },
     revealTile: function(tile){
       $(".row" + tile.row).find(".col" + tile.col).addClass("revealed");
     },
-    hideTiles: function(tile){
-      // console.log("hiding tiles "+counter );
-       // setTimeout(function(){
-        $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).removeClass("revealed");
-        $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).removeClass("revealed");
-      // }, 1000);
+    hideTiles: function(){
+      // console.log("hiding 1st tile "+JSON.stringify(this.firstTile));
+      // console.log("hiding 2nd tile "+JSON.stringify(this.secondTile));
+      $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).removeClass("revealed");
+      $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).removeClass("revealed");
     },
     isMatch: function(){
       if(this.firstTile.letter == this.secondTile.letter && (this.firstTile.row != this.secondTile.row || this.firstTile.col != this.secondTile.col)){
-        $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).addClass("matched");
-        $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).addClass("matched");
+        if(feedback){
+          $(".row" + this.firstTile.row).find(".col" + this.firstTile.col).addClass("matched");
+          $(".row" + this.secondTile.row).find(".col" + this.secondTile.col).addClass("matched"); 
+        }
         return true;
       }
       return false;
@@ -75,14 +75,13 @@
         var row = click['row']-1;
         var col = click['col']-1;
         var tile = new Tile(target, row, col);
-        // console.log("Clicked: "+" Row: "+row+" Col: "+col+" move: "+this.move);
+        // console.log("Clicked: "+target+" Row: "+row+" Col: "+col+" move: "+this.move);
         this.revealTile(tile);
         if(this.move % 2 == 0){
           this.move = 0;
           this.setSecondTile(tile);
           if(this.isMatch()){
-            // console.log(target + " matches " + this.previous);
-            this.removeTiles();
+            match = true;
           } 
         } else {
           this.setFirstTile(tile);
@@ -98,6 +97,10 @@
   ];
 
   var counter = 0;
+  var clickBegin = 0;
+  var match = false;
+  var hid = true;
+  var feedback = true; // Make true to display match tile feedback
 
   ReplayConcentrationGame.init = function(state) {
       $('#dataTitle').html("Concentration");
@@ -113,35 +116,44 @@
     Board.reset();
     counter = 0;
     clickBegin = 0;
+    match = false;
+    hid = true;
   };
 
+  ReplayConcentrationGame.onPlay = function() {
+    ReplayConcentrationGame.reset();
+  }
+
   ReplayConcentrationGame.onStop = function() {
-    // console.log("pauses: "+pauses+" end: "+clickEnd);
     ReplayConcentrationGame.reset();
   };
 
-  var clickBegin = 0;
-  var pauses = 0;
-
   ReplayConcentrationGame.onFrame = function(frame, entry) {
     if(entry) {
-      clickEnd = frame;
+      // If it has been 1s since tiles were displayed hide them
       if(clickBegin != 0){
         var difference = frame - clickBegin;
-        if(difference >= 1000){
-          pauses++;
+        if(difference >= 1000 && !hid){
+          hid = true;
           Board.hideTiles();
-          // console.log("difference: "+difference);
         }
       }
       if(entry['click']){
+        // If the previous tiles were not hidden already hide them
+        if(clickBegin != 0 && counter == 0 && !hid){
+          hid = true;
+          Board.hideTiles();
+        }
+        if(match){
+          Board.removeTiles();
+          match = false; 
+        }
         Board.processClick(entry['click']);
         if(counter++ == 0){
           clickBegin = frame;
-          console.log("clickBegin: "+frame);
         } else {
-          console.log("clickEnd: "+frame);
           counter = 0;
+          hid = false;
         }
       }
     }
