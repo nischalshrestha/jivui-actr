@@ -133,14 +133,14 @@
       // If it has been 1s since tiles were displayed hide them
       if(clickBegin != 0){
         var difference = frame - clickBegin;
-        if(difference >= 1000 && !hid){
+        if(difference >= 1000 && !hid && !match){
           hid = true;
           Board.hideTiles();
         }
       }
       if(entry['click']){
         // If the previous tiles were not hidden already hide them
-        if(clickBegin != 0 && counter == 0 && !hid){
+        if(clickBegin != 0 && counter == 0 && !hid && !match){
           hid = true;
           Board.hideTiles();
         }
