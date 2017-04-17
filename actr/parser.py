@@ -128,21 +128,21 @@ def determine_target(x, y):
     row = None
     col = None
     if(x < 100):
-        col =  1
+        col =  0
     if(x > 100 and x < 200):
-        col = 2
+        col = 1
     if(x > 200 and x < 300):
-        col = 3
+        col = 2
     elif(x > 300):
-        col = 4
+        col = 3
     if(y < 100):
-        row =  1
+        row =  0
     if(y > 100 and y < 200):
-        row = 2
+        row = 1
     if(y > 200 and y < 300):
-        row = 3
+        row = 2
     elif(y > 300):
-        row = 4
+        row = 3
     return row, col
 
 # Creates a conflict resolution event

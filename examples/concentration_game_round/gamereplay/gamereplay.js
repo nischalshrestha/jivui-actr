@@ -72,8 +72,8 @@
     processClick: function(click) {
         this.move++;
         var target = click['target'];
-        var row = click['row']-1;
-        var col = click['col']-1;
+        var row = click['row'];
+        var col = click['col'];
         var tile = new Tile(target, row, col);
         // console.log("Clicked: "+target+" Row: "+row+" Col: "+col+" move: "+this.move);
         this.revealTile(tile);
@@ -130,14 +130,15 @@
 
   ReplayConcentrationGame.onFrame = function(frame, entry) {
     if(entry) {
+      // TODO figure out why this only seems to work for model data
       // If it has been 1s since tiles were displayed hide them
-      if(clickBegin != 0){
-        var difference = frame - clickBegin;
-        if(difference >= 1000 && !hid && !match){
-          hid = true;
-          Board.hideTiles();
-        }
-      }
+      // if(clickBegin != 0){
+      //   var difference = frame - clickBegin;
+      //   if(difference >= 1000 && !hid && !match){
+      //     hid = true;
+      //     Board.hideTiles();
+      //   }
+      // }
       if(entry['click']){
         // If the previous tiles were not hidden already hide them
         if(clickBegin != 0 && counter == 0 && !hid && !match){
