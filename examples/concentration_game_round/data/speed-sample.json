@@ -2145,7 +2145,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -2425,7 +2425,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -4115,7 +4115,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -6259,7 +6259,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -8676,7 +8676,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -9740,7 +9740,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -10020,7 +10020,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -11149,7 +11149,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -12213,7 +12213,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -14630,7 +14630,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -15694,7 +15694,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -15974,7 +15974,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -19402,7 +19402,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -19682,7 +19682,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -23110,7 +23110,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -24447,7 +24447,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -25865,7 +25865,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -26145,7 +26145,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -29573,7 +29573,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -29853,7 +29853,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -34118,7 +34118,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -34398,7 +34398,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -35527,7 +35527,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -37161,7 +37161,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -38498,7 +38498,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -39468,7 +39468,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -39748,7 +39748,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -41862,7 +41862,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -43199,7 +43199,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -44833,7 +44833,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -46827,7 +46827,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -48461,7 +48461,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -50710,7 +50710,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -52854,7 +52854,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -55905,7 +55905,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -57242,7 +57242,7 @@
                 "type": "WM",
                 "action": "no-match-found-check-earlier",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -58963,7 +58963,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -59243,7 +59243,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {
@@ -62014,7 +62014,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -62294,7 +62294,7 @@
                 "type": "WM",
                 "action": "check-for-matching-second-tile",
                 "request": "Working Memory",
-                "summary": "Store or retrieve chunk from memory",
+                "summary": "Retrieve chunk from memory",
                 "duration": 50
             },
             "gaze": {

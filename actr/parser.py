@@ -114,6 +114,10 @@ exact positions for visualization
 - However, we could use something more fine-grained and precise like EMMA, Eye
 Movement and Movement Attention module.
 
+WM, followed immediately by P, M is an instance of succesfully retrieving matching tile
+
+Rules in model: 'check-for-matching-second-tile' followed by 'find-matching-second-tile'
+
 '''
 
 import re
@@ -291,14 +295,21 @@ for line in f:
                         ('duration', 85)
                     ])
                     mouse_start = int(string_time)+50
-                elif("read-first" in event_type or "check" in event_type): # working memory
+                elif("read-first" in event_type): # store working memory
                     event_type = "WM"
                     request = "Working Memory"
-                    summary = "Store or retrieve chunk from memory"
+                    summary = "Store chunk into memory"
+                elif("check" in event_type): # retrieve working memory
+                    event_type = "WM"
+                    request = "Working Memory"
+                    summary = "Retrieve chunk from memory"
                 elif("click" in event_type): # motor
                     event_type = "M"
                     request = "Motor"
                     summary = "Click on a tile"
+                elif("read-first" in event_type):
+                    event_type = "C" # "pure" meaning no request needed to other modules
+                    summary = "Read a matching second tile"                                   
                 elif("read-second-tile" in event_type):
                     event_type = "C" # "pure" meaning no request needed to other modules
                     summary = "Read a matching second tile"
