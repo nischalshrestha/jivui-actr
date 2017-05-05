@@ -2145,7 +2145,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -4043,7 +4043,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -6259,7 +6259,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -8604,7 +8604,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -9740,7 +9740,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -11077,7 +11077,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -12213,7 +12213,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -14558,7 +14558,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -15694,7 +15694,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -17616,7 +17616,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -19402,7 +19402,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -21324,7 +21324,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -23110,7 +23110,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -24375,7 +24375,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -25865,7 +25865,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -27787,7 +27787,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -29573,7 +29573,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -31918,7 +31918,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -34118,7 +34118,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -35455,7 +35455,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -37161,7 +37161,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -38426,7 +38426,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -39468,7 +39468,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -40733,7 +40733,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -41862,7 +41862,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -43127,7 +43127,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -44833,7 +44833,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -46755,7 +46755,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -48461,7 +48461,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -50638,7 +50638,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -52854,7 +52854,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -54776,7 +54776,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -55905,7 +55905,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -57170,7 +57170,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -58963,7 +58963,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -60885,7 +60885,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {
@@ -62014,7 +62014,7 @@
                 "type": "WM",
                 "action": "read-first-tile",
                 "request": "Working Memory",
-                "summary": "Store chunk into memory",
+                "summary": "Read first tile and store chunk into memory",
                 "duration": 50
             },
             "gaze": {
@@ -63936,7 +63936,7 @@
                 "type": "C",
                 "action": "read-second-tile",
                 "request": "None",
-                "summary": "Read a matching second tile",
+                "summary": "Read the second tile",
                 "duration": 50
             },
             "gaze": {

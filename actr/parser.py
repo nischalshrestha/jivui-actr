@@ -114,7 +114,8 @@ exact positions for visualization
 - However, we could use something more fine-grained and precise like EMMA, Eye
 Movement and Movement Attention module.
 
-WM, followed immediately by P, M is an instance of succesfully retrieving matching tile
+WM, followed immediately by P,M is an instance of succesfully retrieving matching tile.
+Otherwise, you have WM, P, P,M.
 
 Rules in model: 'check-for-matching-second-tile' followed by 'find-matching-second-tile'
 
@@ -298,7 +299,7 @@ for line in f:
                 elif("read-first" in event_type): # store working memory
                     event_type = "WM"
                     request = "Working Memory"
-                    summary = "Store chunk into memory"
+                    summary = "Read first tile and store chunk into memory"
                 elif("check" in event_type): # retrieve working memory
                     event_type = "WM"
                     request = "Working Memory"
@@ -306,13 +307,10 @@ for line in f:
                 elif("click" in event_type): # motor
                     event_type = "M"
                     request = "Motor"
-                    summary = "Click on a tile"
-                elif("read-first" in event_type):
-                    event_type = "C" # "pure" meaning no request needed to other modules
-                    summary = "Read a matching second tile"                                   
+                    summary = "Click on a tile"                             
                 elif("read-second-tile" in event_type):
                     event_type = "C" # "pure" meaning no request needed to other modules
-                    summary = "Read a matching second tile"
+                    summary = "Read the second tile"
                 elif("match-found-restart" in event_type):
                     event_type = "C" # "pure" meaning no request needed to other modules
                     summary = "Tiles were a match, start over"
