@@ -12,7 +12,11 @@ Domínguez, I. X., Goodwin, P. R., Roberts, D. L., & St. Amant, R. (2017). Human
 
 ## Concentration Game - Speed Round
 
-This example visualizes one round of a computer-based Concentration game played by an ACT-R model.
+This example visualizes one round of a computer-based Concentration game played by an ACT-R model. Here is what the model looks like when trading off accuracy for speed in the concentration game:
+
+![alt text](demos/actr_speed_demo.gif "Logo Title Text 1")
+
+The red dot that is darting across the board is the eye gaze of the model. The "hesitant" movement illustrates the conflict resolution cycle, i.e. when model is trying to decide next move (recalling where the cards were and prepping for next tile).
 
 ### Library Dependencies
   * jQuery
